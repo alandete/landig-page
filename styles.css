@@ -27,6 +27,24 @@ a{
     background-color: var(--tertiaryColor);
 }
 
+/*  Buttons
+*************************************************/
+.btn-primary {
+    color: #fff;
+    background-color: var(--primaryColor) !important;
+    border-color: var(--primaryColor) !important;
+}
+
+.btn-outline-primary {
+    color: var(--primaryColor) !important;
+    border-color:  var(--primaryColor) !important;
+}
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: var(--primaryColor) !important;
+    border-color: var(--primaryColor) !important;
+}
+
 /*  Header
 *************************************************/
 header{
@@ -46,4 +64,10 @@ header{
     background-color: var(--tertiaryColor);
     color: var(--primaryColor);
     border-bottom: none;
+}
+#pricing .border-primary {
+    border-color: var(--tertiaryColor) !important;
+}
+#pricing .bg-primary{
+    background-color: var(--primaryColor) !important;
 }

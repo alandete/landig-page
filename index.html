@@ -86,7 +86,7 @@
               <li>Priority email support</li>
               <li>Help center access</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Get started</button>
           </div>
         </div>
       </div>
@@ -109,15 +109,32 @@
       </div>
     </div>
   </div>
-  <div class='container mb-5'>
-    <form id="form" action='post'>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input id="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='@ Your email is required' required>
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-      </div>
-      <button id="submit" type="submit" class="btn btn-primary">Submit</button>
-    </form>
+
+  <div class='merino'>
+    <div class='container'>
+      <form  action="" method="post" class="row gy-2 gx-3 align-items-center">
+        <div class="col-auto">
+          <label class="visually-hidden" for="autoSizingInput">Name</label>
+          <input type="text" class="form-control" id="autoSizingInput" placeholder="Your name">
+        </div>
+        <div class="col-auto">
+          <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+          <div class="input-group">
+            <div class="input-group-text">@</div>
+            <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Your email">
+          </div>
+        </div>
+        <div class="col-auto">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+            <label class="form-check-label" for="autoSizingCheck">Terms & condition</label>
+          </div>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
   </div>
 
   <footer class="py-3 my-4">
