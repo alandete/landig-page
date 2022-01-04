@@ -50,6 +50,9 @@ a{
 header{
     background-color: #fff;
 }
+header img{
+    margin-right: 1rem;
+}
 .nav-link{
     color: var(--primaryColor) !important;
     font-weight: 600;
